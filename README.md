@@ -1,34 +1,83 @@
-# 📘 Assignment: HTML5 + Accessibility & SEO Basics
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-## Overview
+  <!-- SEO Metadata -->
+  <title>Introduction to HTML5 | Web Technologies</title>
+  <meta name="description" content="A beginner-friendly introduction to HTML5 structure, accessibility, and SEO best practices. Learn the fundamentals of semantic HTML.">
+  <meta name="author" content="Your Name">
 
-This assignment will help you solidify your understanding of modern HTML5 structure while applying foundational concepts of web accessibility and search engine optimization (SEO). You’ll create a simple, semantically correct web page that prioritizes both human and machine readability—two pillars of great web design.
+</head>
+<body>
+  <!-- Page Header -->
+  <header>
+    <h1>Introduction to HTML5</h1>
+    <p>Understanding semantic structure, accessibility, and SEO in modern web development.</p>
+    
+    <!-- Navigation landmark -->
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About HTML5</a></li>
+        <li><a href="#accessibility">Accessibility</a></li>
+        <li><a href="#seo">SEO Basics</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-## Objective
+  <!-- Main Content -->
+  <main>
+    <!-- About Section -->
+    <section id="about">
+      <h2>What is HTML5?</h2>
+      <p>HTML5 is the latest version of the HyperText Markup Language. It introduces new semantic tags, improved accessibility support, and better integration with modern web technologies.</p>
+    </section>
 
-Build a basic web page using HTML5 semantic tags, applying accessibility best practices and beginner-friendly SEO principles. Your final output should demonstrate a well-structured layout that supports screen readers and is optimized for discoverability.
+    <!-- Accessibility Section -->
+    <section id="accessibility">
+      <h2>Accessibility in HTML5</h2>
+      <p>Accessibility ensures that websites can be used by everyone, including people with disabilities. Using semantic landmarks like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> helps screen readers navigate effectively.</p>
+    </section>
 
-## Guidelines
+    <!-- SEO Section -->
+    <section id="seo">
+      <h2>SEO Best Practices</h2>
+      <article>
+        <h3>Use of Headings</h3>
+        <p>Headings should follow a logical hierarchy (<code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>). Search engines use these to understand page structure.</p>
+      </article>
 
-Use only HTML5. No CSS or JavaScript is required at this stage. Focus on using meaningful semantic elements to structure your page. Avoid using `<div>` or `<span>` unless absolutely necessary. Ensure your page has clearly defined sections such as a header, navigation, main content, and a footer.
+      <article>
+        <h3>Metadata</h3>
+        <p>Providing descriptive <code>&lt;title&gt;</code> and <code>&lt;meta&gt;</code> tags improves discoverability in search engines.</p>
+      </article>
 
-Incorporate accessibility by using proper HTML5 landmarks and attributes that improve navigation for assistive technologies. Your HTML should reflect thoughtful planning of hierarchy and readability, both for users and search engines.
+      <article>
+        <h3>Readable Content</h3>
+        <p>Content should be clear, concise, and written with humans in mind, as search engines prioritize user-friendly information.</p>
+      </article>
+    </section>
 
-For SEO, emphasize the use of heading tags in the correct order, provide descriptive text, and ensure your content is both human-readable and crawler-friendly. Consider how a search engine would interpret your page in terms of structure and content clarity.
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>If you’d like to learn more, feel free to <a href="mailto:yourname@example.com">email me</a>.</p>
+    </section>
+  </main>
 
-## Deliverables
-
-A single HTML file named `index.html`. It should include:
-
-* A semantic structure using appropriate HTML5 elements.
-* Clear headings in a logical hierarchy.
-* Accessibility enhancements using proper tags and attributes.
-* SEO-friendly metadata and content.
-
-## Tips
-
-* Use HTML5 semantic tags appropriately.
-* Organize content with accessibility in mind.
-* Apply basic on-page SEO techniques.
-* Follow clean, readable HTML code structure.
-
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+    <nav aria-label="Footer navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#accessibility">Accessibility</a></li>
+        <li><a href="#seo">SEO</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
